@@ -1,0 +1,87 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-title>Registro</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+<ion-card-header>
+  <ion-card-title>Registrar o que?!</ion-card-title>
+</ion-card-header>
+<ion-card-content>
+  <ion-list>
+    <ion-radio-group>
+      <ion-item>
+        <ion-label>Cliente:</ion-label>
+        <ion-radio value="cliente" slot="start"></ion-radio>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label>Serviços:</ion-label>
+        <ion-radio value="servicos" slot="start"></ion-radio>
+      </ion-item>
+  
+      <!-- <ion-item>
+        <ion-label>Hudson</ion-label>
+        <ion-radio value="hudson"></ion-radio>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label>Packard</ion-label>
+        <ion-radio value="packard"></ion-radio>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label>Studebaker</ion-label>
+        <ion-radio value="studebaker"></ion-radio>
+      </ion-item> -->
+    </ion-radio-group>
+  </ion-list>
+</ion-card-content>
+</ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Contato:</ion-card-title>
+    </ion-card-header>
+
+      <ion-card-content>
+        <ion-item>
+          <ion-label position="floating">Nome</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">E-mail:</ion-label>
+          <ion-input type="email"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Senha:</ion-label>
+          <ion-input type="password"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Confirmar senha</ion-label>
+          <ion-input type="password"></ion-input>
+        </ion-item>
+        
+        <ion-item>
+          <ion-label position="floating">Telefone</ion-label>
+          <ion-input type="telefone"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Endereço</ion-label>
+          <ion-input type="adress"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Número do endereço</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
+  
+      </ion-card-content>
+    </ion-card>
+
+    <ion-button size="full" color="light">Registre</ion-button>
+</ion-content>
